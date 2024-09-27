@@ -32,22 +32,110 @@
             display: inline;
             color: white;
          }
+         .new{
+            background-color: orange;
+            color: white;
+         }
+         .login-form {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            color: white;
+            width: 300px;
+        }
+
+        .login-form h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .login-form .login-btn {
+            background-color: orange;
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-form .signup-link {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .login-form .signup-link a {
+            color: orange;
+            text-decoration: none;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;}
     </style>
 </head>
 <body>
     <nav>
         <div class="logo">PraRoz</div>
         <ul>
-            <li>href="#">HOME</li>
-            <li>href="#">ABOUT</li>
-            <li>href="#">SERVICE</li>
-            <li>href="#">DESIGN</li>
-            <li>href="#">CONTACT</li>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICE</li>
+            <li>DESIGN</li>
+            <li>CONTACT</li>
         </ul>
         <div>
             <input type="text" placeholder="Type to search">
-            <button>Search</button>
+            <button class="s">Search</button>
         </div>
+       
+
+        </div>
+
     </nav>
+    
+     <div class="hero">
+        <div class="hero-text">
+            <h1 style="color: white;">Web Design &
+            <h2 style="color: orange;">Development</h2>
+                <h1 style="color: white;">Course</h1>
+            <p style="color: white;">Web Design is a specialization in the design stream. They also use HTML,<br> CSS, WYSIWYG editing software, mark-up validators, etc. <br>to create design elements.</p>
+            <button class="new"><h5 style="color: black;">JOIN US</h5></button>
+        </div>    
+         <!-- Login Form -->
+         <div class="login-form">
+            <h2>Login Here</h2>
+            <input type="email" placeholder="Enter Email Here">
+            <input type="password" placeholder="Enter Password Here">
+            <button class="login-btn">Login</button>
+            <div class="signup-link">
+                Don't have an account? <a href="#">Sign up here</a>
+            </div>
+            <div class="social-icons">
+                <a href="#">F</a>
+                <a href="#">I</a>
+                <a href="#">T</a>
+                <a href="#">G</a>
+                <a href="#">S</a>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
